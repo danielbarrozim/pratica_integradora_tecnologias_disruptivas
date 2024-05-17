@@ -10,8 +10,8 @@ import IconButton from '@mui/material/IconButton';
 function Header() {
     return (
         <Box sx={{ flexGrow: 1 }}>
-        <AppBar position="static">
-          <Toolbar>
+        <AppBar position="static" color='success'>
+          <Toolbar variant='dense'>
             <IconButton
               size="large"
               edge="start"
@@ -24,7 +24,7 @@ function Header() {
               */}
             </IconButton>
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-              Gerenciamento de Projetos
+              Gerenciamento de Projetos - Daniel Barroso
             </Typography>
           </Toolbar>
         </AppBar>
